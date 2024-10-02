@@ -19,7 +19,7 @@ llm = ChatGoogleGenerativeAI(
 memory = ConversationBufferMemory(input_key="input", memory_key="chat_history")
 
 # Set page config
-st.set_page_config(page_title="Socratic Teaching Assistant", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="PrashnaMitra", page_icon="🧠", layout="wide")
 
 hide_streamlit_style = """
     <style>
@@ -102,7 +102,7 @@ def socratic_assistant(student_input: str):
     return response
 
 # Streamlit app
-st.title("Structura: Socratic Learning in Data Structures 🧠")
+st.title("PrashnaMitra : Socratic Learning in Data Structures 🧠")
 
 # Instructions
 st.write("""
